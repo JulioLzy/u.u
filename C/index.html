@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Mensaje de Amor</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- Música (no se corta) -->
+  <audio id="musica" autoplay loop controls>
+    <source src="audio/musica.mp3.mp3" type="audio/mp3">
+    Tu navegador no soporta audio.
+  </audio>
+
+  <!-- Sección 1 -->
+  <section id="pagina1" class="pagina activa">
+    <h1>¿Quieres estar conmigo? 💕</h1>
+    <button onclick="mostrarPagina(2)">Sí 💘</button>
+    <button id="botonNo">No 💔</button>
+  </section>
+
+ <section id="pagina2" class="pagina">
+  <h1>Sabía que dirías que Sí 💖</h1>
+  <p>Gracias🙈</p>
+
+  <div class="contenedor-central">
+    <div class="contenedor-imagen-texto">
+      <img src="imagenes/Preciosa.jpg" alt="Foto juntos" class="foto-amor">
+      <div class="texto-encima">
+        Sé que estás pasando por un momento difícil, con un bloqueo emocional, y ya ni siquiera quieres hablarme… y lo entiendo.
+        Con todo lo que te hice vivir, no tendrías por qué hacerlo.
+
+Esto que hice llevaba tiempo queriendo hacerlo como un regalo de cumpleaños, pero no fui capaz de ver a la gran mujer que tenía a mi lado y se termino marchando antes de poder entregarselo.
+Esa mujer que me enamoró con sus miradas, con sus palabras…
+
+Esta foto que elegí es muy especial para mí. Es la razón por la cual pude soportar mi tiempo en la práctica.
+Sin ella, se me hacía difícil aguantar todo lo que estaba pasando.
+Llegué a tener mi primer ataque de ansiedad, pero ver tu foto me alivió.
+
+Por eso, elegí esta imagen como la primera parte de este mensaje...
+      </div>
+    </div>
+  </div>
+
+  <div class="boton-abajo">
+    <button onclick="mostrarPagina(3)">Siguiente ➡️</button>
+  </div>
+</section>
+
+  <section id="pagina3" class="pagina">
+    <h1> Etapas...💖</h1>
+    <p>Como olvidarte</p>
+    <div class="contenedor-central">
+      <div class="contenedor-imagen-texto">
+    <img src="imagenes/Preciosa2.jpg" alt="Foto juntos" class="foto-amor">
+    <div class="texto-encima">
+      Algo que provoca en mi esta foto es que por estas fechas segun recuerdo es cuando mas cambiaste de estilos y con cada una de ellas tenias una belleza sin igual
+      jamas estare a tu altura en la forma de vestir pero quien sabe jiji. Nunca fui de expresarme mucho pero con esto lo intentare de la mejor forma posible
+    </div>
+  </div>
+</div>
+    <button onclick="mostrarPagina(4)">Siguiente ➡️</button>
+    </div>
+  </section>
+  
+  <section id="pagina4" class="pagina">
+    <h1>Tu Mirada 💖</h1>
+    <p>Me hace falta</p>
+    <div class="contenedor-central">
+      <div class="contenedor-imagen-texto">
+    <img src="imagenes/Preciosa3.jpg" alt="Foto juntos" class="foto-amor">
+    <div class="texto-encima">
+      Esa mirada que tienes tu es tan unica tan coqueta sincera que simplemente me encanta, se que no alcanza con un perdon y ya, es trabajar en tu confianza
+      hacia mi nuevamente. Aunque ya sea tarde como dices esos besos que me diste o pediste fueron sinceros un momento fugaz de lo que alguna vez hubo y sigue habiendo 
+    </div>
+  </div>
+</div>
+    <button onclick="mostrarPagina(5)">Siguiente ➡️</button>
+  </div>
+  </section>
+
+  <section id="pagina5" class="pagina">
+    <h1>Dolcezza 💖</h1>
+    <p>Te extraño tanto mi Reyna</p>
+     <div class="contenedor-central">
+      <div class="contenedor-imagen-texto">
+    <img src="imagenes/Preciosa4.jpg" alt="Foto juntos" class="foto-amor">
+    <div class="texto-encima">
+      Una foto tuya en el baño me hizo ver lo tan Meliflua que eres y seras. Solo quiero que no llores y no temas dar lo mejor de mi para poder merecerte, 
+      Quiero que sepas que quiero estar ahi contigo...
+      </div>
+    </div>
+  </div>
+    <button onclick="mostrarPagina(6)">Siguiente ➡️</button>
+</div>
+  </section>
+
+  <section id="pagina6" class="pagina">
+    <h1>Sencilles 💖</h1>
+    <p>Perdón</p>
+    <div class="contenedor-central">
+      <div class="contenedor-imagen-texto">
+    <img src="imagenes/Preciosa5.jpg" alt="Foto juntos" class="foto-amor">
+     <div class="texto-encima">
+      Recien levantada y tenias una cara tan preciosa algo que siempre pensare, es lo hermosa que eres.
+      Se que te causo tantas cosas negativas, con esto quiero hacerte saber lo mucho que te quiero de una forma diferente...
+      
+     </div>
+    </div>
+  </div>
+    <button onclick="mostrarPagina(7)">Siguiente ➡️</button>
+</div>
+  </section>
+
+  <section id="pagina7" class="pagina">
+    <h1>Cuando te digo Te amo lo que en realidad trato de decir es...  💘</h1>
+    <p></p>
+    <button onclick="mostrarPagina(8)">Continuar 🖼️</button>
+ </section>
+
+  <section id="pagina8" class="pagina">
+  <h2 id="frase-romantica">Incluso si me odias, seguiré amándote </h2>
+  <img id="imagen-romantica" src="imagenes/Naruto.jpg" class="foto-romantica">
+  <br>
+  <button onclick="siguienteFrase()">Siguiente 💌</button>
+  <br><br>
+  <button onclick="mostrarPagina(1)">Volver al inicio 🔁</button>
+</section>
+
+
+ <script src="js/script.js"></script>
+  <audio id="musica" src="audio/oof.mp3" preload="auto"></audio>
+  
+
+</body>
+</html>
